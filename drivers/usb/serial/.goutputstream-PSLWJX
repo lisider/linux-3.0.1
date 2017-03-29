@@ -1,0 +1,137 @@
+// #######################################################
+// # Option GlobeSurfer Icon (aka "Vodafone EasyBox")
+// #
+// # The message SHOULD be the same for all Option devices
+	{ USB_DEVICE(0x0af0, 0x6600) },
+// #######################################################
+// # Option GlobeSurfer Icon 7.2 
+// #
+// # Contributor: The Pharscape Forum
+	{ USB_DEVICE(0x0af0, 0x6901) },
+// ########################################################
+// # Option GlobeTrotter GT MAX 3.6 (aka "T-Mobile Web'n'walk Card Compact II")
+// #
+// # Contributor: Bernd Holzmüller
+	{ USB_DEVICE(0x0af0, 0x6600) },
+// # ResponseEndpoint=0x84
+// ########################################################
+// # Option GlobeTrotter GT MAX "7.2 Ready"
+// #
+// # Contributors: Lucas Benedicic, Morgwai Kotarbinski
+	{ USB_DEVICE(0x0af0, 0x6701) },
+// ########################################################
+// # Option GlobeTrotter EXPRESS 7.2 (aka "T-Mobile wnw Express II")
+// #
+// # Contributor: Fridtjof Busse
+	{ USB_DEVICE(0x0af0, 0x6701) },
+// # Response reading needed according to one (1) report
+// #######################################################
+// # Option GlobeSurfer Icon 7.2, new firmware (HSO driver)
+// #
+// # Vendor/ProductID don't change when switching, only the device
+// # class does. Most new Option devices work with this. Just adapt IDs!
+// # HSO driver support is available at Pharscape (www.pharscape.org)
+// #
+// # Contributor: Paul Hardwick
+// ########################################################
+// # Option iCON 210
+// # PROLiNK PHS100 (various looks)
+// # Hyundai Mobile MB-810
+// #
+// # One report of switching with DetachStorageOnly. Needs at least
+// # a second to settle before binding to usbserial
+// #
+// # Contributor: wahlm, Peter Kraker, Pakdhetimin Sekum
+	{ USB_DEVICE(0x1e0e, 0x9000) },
+// #######################################################
+// # Option iCON 225 HSDPA
+// #
+// # New Firmware. HSO driver support is available at Pharscape (www.pharscape.org)
+// #
+// # Contributor: Matti Viljanen
+// #######################################################
+// # Option GlobeTrotter HSUPA Modem (aka "T-Mobile Web'n'walk Card Compact III')
+// #
+// # New Firmware. HSO driver support is available at Pharscape (www.pharscape.org)
+// #
+// # Contributor: Gerold Gruber
+// ###################################################### 
+// # Option iCON 401
+// #
+// # HSO driver 
+// #
+// # Contributor: Vincent Teoh
+// ######################################################## 
+// # Vodafone K3760 (made by Option, HSO driver) 
+// #
+// # Contributor: The Solutor
+// ########################################################
+// # AT&T USBConnect Quicksilver (made by Option, HSO driver)
+// #
+// # Contributor: sissie from Bullteam
+// ########################################################
+// # Huawei devices
+// #
+// # Contributor: Hans Kurent, Denis Sutter, Vincent Teoh
+// ########################################################
+// # Huawei E169
+// #
+// # Contributor: Dale Lane
+// # choose one of these:
+// ########################################################
+// # Huawei E180
+// #
+// # Contributor: Tom Dawahare
+// ########################################################
+// # Huawei E630
+// #
+// # There seem to be modem-only variants around - no storage,
+// # no switching
+// #
+// # Contributor: Joakim Wenrgren
+	{ USB_DEVICE(0x12d1, 0x1003) },
+// ########################################################
+// # ZTE MF620 (aka "Onda MH600HS")
+// #
+// # Probably works with DetachStorageOnly too
+// #
+// # Contributor: FlÃ¡vio Moringa and others
+	{ USB_DEVICE(0x19d2, 0x0001) },
+// ########################################################
+// # ZTE MF622 (aka "Onda MDC502HS"), MF100 and others
+// #
+// # Contributor: andylog
+	{ USB_DEVICE(0x19d2, 0x0002) },
+// ########################################################
+// # ZTE MF628
+// #
+// # Captured with "usbmon". Has a micro SD slot which can be
+// # activated alternatively
+// #
+// # Contributor: Alvaro Lopes <alvieboy at alvie dot com>
+// # To modem mode:
+	{ USB_DEVICE(0x19d2, 0x0015) },
+// # To SD slot mode:
+	{ USB_DEVICE(0x05c6, 0x2001) },
+// ########################################################
+// # ZTE MF622 (aka "Onda MDC502HS")
+// # ZTE MF626
+// # ZTE MF628+ (tested version from Telia / Sweden)
+// # ZTE MF633
+// # ZTE MF636 (aka "Telstra / BigPond 7.2 Mobile Card")
+// # ZTE MF637
+// #
+// # Contributor: Joakim Wennergren and others
+	{ USB_DEVICE(0x19d2, 0x0031) },
+// ########################################################
+// # ZTE MF638 (aka "Onda MDC525UP")
+// #
+// # Contributor: andylog
+	{ USB_DEVICE(0x19d2, 0x0037) },
+// ########################################################
+// # ZTE AC8710
+// # ZTE AC2726
+// # and others
+// # ZTE AC581 0xffeb //cym 20110829
+// # ZTE MF210 0x0117
+// # ZTE AD3812 0xffeb ZTE MC2716 usb

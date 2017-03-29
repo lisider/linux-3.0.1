@@ -1,0 +1,19 @@
+#forlinx xxz 20140321 
+#config RTL8189ES
+#	tristate "Realtek 8189E SDIO WiFi"
+#	select SDIO_HCI
+#	depends on USB
+#	---help---
+#	  Help message of RTL8189ES
+
+#config SDIO_HCI
+#	tristate "sdio hci"
+#	default y
+#	---help---
+#	  Help message of sdio hci
+
+#config USB_HCI
+#	tristate "usb hci"
+#	default n
+#	---help---
+#	  Help message of usb hci

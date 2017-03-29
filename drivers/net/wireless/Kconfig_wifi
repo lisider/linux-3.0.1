@@ -1,0 +1,19 @@
+choice
+	prompt "RTL wifi"
+	depends on WLAN
+	prompt "Select rtl wifi"
+	default RTL8192CU
+
+config RTL8189ES
+	tristate "Realtek 8189E SDIO WiFi"
+	depends on USB 
+	---help---
+	  Help message of RTL8189ES
+
+config RTL8192CU
+	tristate "Realtek 8192C USB WiFi"
+	depends on USB
+	---help---
+	  Help message of RTL8192CU
+
+endchoice

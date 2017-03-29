@@ -1,0 +1,73 @@
+2014-9-12
+add kernel logo,changed nand flash partition table for uboot logo,add lcd backlight ctrl.
+2014-9-1
+optimize nand flash bad block management.
+2014-8-18
+optimize VGA.
+2014-7-28
+support HUAWEI EC189,HUAWIE E261,ZTE AC591 usb 3G modem,ZTE AD3812,ZTE MF210,ZTE MC2716 module.
+2014-7-14
+add 5 inch lcd(800*480) driver,optimaize 5.6 inch lcd driver.
+2014-6-24
+optimaize rtl8188 usb wifi driver.Add netfilter config for wifi ap.
+2014-6-17
+add K9K8G08U0E driver.
+2014-5-27
+Add dm9000c driver.
+2014-3-21
+Add choice between rtl usb wifi 8188 and rtl sdio wifi 8189 when "make menuconfig".
+2014-1-16
+optimaize 485 driver.
+2013-12-30
+add sdio wifi rtl8189.
+2013-12-18
+add usb wifi rtl8188.
+2013-11-28
+add can.
+2013-11-27
+add 485.
+2013-11-22
+optimaize 8 inch lcd driver.
+2012-09-23
+1 support slc MT29F8G08ABABAWP
+
+2012-08-06
+1 support slc MT29F16G08ABACAWP
+2 uboot nand erase size is [0------2G]
+
+2012-07-14
+nand flash partition: uboot 0--2M ;linux kernel:2M---7M;fs:7M---207M;usr:other
+
+2012-06-20
+support  mlc nandflash:K9LBG08U0D
+
+2012-06-06
+1 resolve K9GAG08U0E Bug:Do not save environment,uboot need 2M places.
+2 support  mlc nandflash:K9GAG08U0M
+
+2012-5-6
+wm9713 driver
+irda driver
+kaypad driver
+rs485io driver
+
+2012-05-04
+add 3G devices of tdscdma  ,huawei ET127 and ZTE A356 
+
+2012-04-17
+support  mlc-2 nandflash:K9GAG08U0E
+
+2012-03-26
+1 Add watchdog driver and test
+
+2012-03-23
+1  PWM Driver show correct frequency 
+2  Touchinput and AD Convert  work well  at the same time.
+3  DS18b20 driver and test application work well
+4  3G support below products:
+   ZTE-AD3812(forlinx device)-WCDMA    ZTE-AC581 and AC582-cdma2000
+   
+before 2012-02-14 
+1  JPEG Hardware decode 
+2  Qtopia has  not   black block
+3  FIMC driver change
