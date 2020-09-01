@@ -1,0 +1,6 @@
+1. how to configure
+    put your arm-linux-gcc(4.3.2) to current path
+    change environment variable PATH
+    make ARCH=arm CROSS_COMPILE=arm-linux- ok6410_defconfig
+2. how to build
+    make -j20
