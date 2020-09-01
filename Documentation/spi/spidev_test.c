@@ -29,7 +29,7 @@ static void pabort(const char *s)
 	abort();
 }
 
-static const char *device = "/dev/spidev1.0";
+static const char *device = "/dev/spidev1.1";
 static uint8_t mode;
 static uint8_t bits = 8;
 static uint32_t speed = 500000;
@@ -142,10 +142,10 @@ static void parse_opts(int argc, char *argv[])
 			mode |= SPI_3WIRE;
 			break;
 		case 'N':
-			//mode |= SPI_NO_CS;  //20140226 undef
+			mode |= SPI_NO_CS;
 			break;
 		case 'R':
-			//mode |= SPI_READY;  //20140226  undef
+			mode |= SPI_READY;
 			break;
 		default:
 			print_usage(argv[0]);
