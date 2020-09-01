@@ -1,0 +1,45 @@
+# .o 文件
+*.o
+# .o 生成过程文件
+*.o.cmd
+# 非.o 生成过程文件
+*.cmd
+
+
+# .ko 驱动文件
+*.ko
+# .ko 驱动生成过程文件
+*.ko.cmd
+# .ko 驱动生成中间文件
+*.mod.c
+
+# 模块相关文件
+modules.builtin
+modules.order
+
+# .config
+.config
+.config.old
+
+
+# 其他文件
+.missing-syscalls.d
+.tmp_System.map
+.tmp_kallsyms1.S
+.tmp_kallsyms2.S
+.tmp_versions/
+.tmp_vmlinux1
+.tmp_vmlinux2
+.version
+CONFIG_OK6410
+Module.symvers
+System.map
+arch/arm/kernel/asm-offsets.s
+arch/arm/lib/lib.a
+include/config/
+include/generated/
+include/linux/version.h
+kernel/bounds.s
+lib/lib.a
+usr/.initramfs_data.cpio.d
+vmlinux
