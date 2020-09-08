@@ -100,6 +100,17 @@ int vprintk(const char *fmt, va_list args);
 asmlinkage __attribute__ ((format (printf, 1, 2))) __cold
 int printk(const char *fmt, ...);
 
+extern int mem_check1_enable;
+extern int mem_check2_enable;
+extern int mem_check3_enable;
+
+#define MLOG(yes,format,...) \
+	do { \
+		(yes ? \
+		printk("SUDEBUG\tFile: %s, Line: %05d: %-30s,\t"format"\n",__FILE__, __LINE__,__func__, ##__VA_ARGS__) : \
+		1); \
+	}while(0)
+
 /*
  * Please don't use printk_ratelimit(), because it shares ratelimiting state
  * with all other unrelated printk_ratelimit() callsites.  Instead use
